@@ -15,7 +15,9 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost/budget", {
+mongoose.connect(
+  process.env.MONGODB_URI ||"mongodb://localhost/Budget", 
+  {
   useNewUrlParser: true,
   useFindAndModify: false
 });
