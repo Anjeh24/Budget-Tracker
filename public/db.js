@@ -27,10 +27,10 @@ function checkDatabase() {
   console.log('check db invoked');
 
   // Starts a transaction on your budget db
-  let transaction = db.transaction(['budget'], 'readwrite');
+  let transaction = db.transaction(['Budget'], 'readwrite');
 
   // access your budget object
-  const store = transaction.objectStore('budget');
+  const store = transaction.objectStore('Budget');
 
   // Will get all records from store and set to a variable
   const getAll = store.getAll();
