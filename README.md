@@ -9,7 +9,7 @@ Below is a snapshot of the app:
 
 ![image](https://user-images.githubusercontent.com/82301113/133958203-439e928f-8e24-4d60-aecb-6fe3913de98f.png)
 
-Deployed link:
+Deployed link: https://shrouded-thicket-27683.herokuapp.com/
 
 License: MIT
 
